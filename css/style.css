@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input-group-text input[type="color"] {
+    width: 27px;
+    overflow: hidden;
+    padding: 0;
+    border: 0 ;
+    background: transparent;
+    border-bottom: 0;
+}
+  
+.list-group-item {
+    overflow: hidden;
+}
+  
+.list-group-item-border {
+    width: 6px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    display: inline-block;
+}
